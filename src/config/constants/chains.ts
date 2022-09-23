@@ -204,36 +204,36 @@ export const WALLCHAIN_PARAMS = {
       apiKey: '31f565ed-7bc1-44f4-8ca7-331897d65132',
     },
   },
-  // [ChainId.FLARE]: {
-  //   [SmartRouter.APE]: {
-  //     apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
-  //     apiKey: '5cf2b177-5fa5-477a-8cea-f2b54859af2a',
-  //   },
-  //   [SmartRouter.QUICKSWAP]: {
-  //     apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
-  //     apiKey: '31f565ed-7bc1-44f4-8ca7-331897d65132',
-  //   },
-  // },
-  // [ChainId.COSTON]: {
-  //   [SmartRouter.APE]: {
-  //     apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
-  //     apiKey: '5cf2b177-5fa5-477a-8cea-f2b54859af2a',
-  //   },
-  //   [SmartRouter.QUICKSWAP]: {
-  //     apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
-  //     apiKey: '31f565ed-7bc1-44f4-8ca7-331897d65132',
-  //   },
-  // },
-  // [ChainId.SONGBIRD]: {
-  //   [SmartRouter.APE]: {
-  //     apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
-  //     apiKey: '5cf2b177-5fa5-477a-8cea-f2b54859af2a',
-  //   },
-  //   [SmartRouter.QUICKSWAP]: {
-  //     apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
-  //     apiKey: '31f565ed-7bc1-44f4-8ca7-331897d65132',
-  //   },
-  // },
+  [ChainId.FLARE]: {
+    [SmartRouter.APE]: {
+      apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
+      apiKey: '5cf2b177-5fa5-477a-8cea-f2b54859af2a',
+    },
+    [SmartRouter.QUICKSWAP]: {
+      apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
+      apiKey: '31f565ed-7bc1-44f4-8ca7-331897d65132',
+    },
+  },
+  [ChainId.COSTON]: {
+    [SmartRouter.APE]: {
+      apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
+      apiKey: '5cf2b177-5fa5-477a-8cea-f2b54859af2a',
+    },
+    [SmartRouter.QUICKSWAP]: {
+      apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
+      apiKey: '31f565ed-7bc1-44f4-8ca7-331897d65132',
+    },
+  },
+  [ChainId.SONGBIRD]: {
+    [SmartRouter.APE]: {
+      apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
+      apiKey: '5cf2b177-5fa5-477a-8cea-f2b54859af2a',
+    },
+    [SmartRouter.QUICKSWAP]: {
+      apiUrl: 'https://matic.wallchains.com/upgrade_txn/',
+      apiKey: '31f565ed-7bc1-44f4-8ca7-331897d65132',
+    },
+  },
   [ChainId.MAINNET]: {
     [SmartRouter.APE]: {
       apiUrl: 'https://eth.wallchains.com/upgrade_txn/',
@@ -270,18 +270,18 @@ export const SMART_PRICE_GETTERS = {
     [SmartRouter.UNISWAP]: '0x0187D959A28B0D3B490c2D898fA1CcD054cCC3cd',
     [SmartRouter.SUSHISWAP]: '0x51FA9ed2908C76f51fDDA7fa0F6a1d57557668b2',
   },
-  // [ChainId.FLARE]: {
-  //   [SmartRouter.APE]: '0x05D6C73D7de6E02B3f57677f849843c03320681c',
-  //   [SmartRouter.QUICKSWAP]: '0xEe57c38d678CaE0cE16168189dB47238d8fe6553',
-  // },
-  // [ChainId.COSTON]: {
-  //   [SmartRouter.APE]: '0x05D6C73D7de6E02B3f57677f849843c03320681c',
-  //   [SmartRouter.QUICKSWAP]: '0xEe57c38d678CaE0cE16168189dB47238d8fe6553',
-  // },
-  // [ChainId.SONGBIRD]: {
-  //   [SmartRouter.APE]: '0x05D6C73D7de6E02B3f57677f849843c03320681c',
-  //   [SmartRouter.QUICKSWAP]: '0xEe57c38d678CaE0cE16168189dB47238d8fe6553',
-  // },
+  [ChainId.FLARE]: {
+    [SmartRouter.APE]: '0x05D6C73D7de6E02B3f57677f849843c03320681c',
+    [SmartRouter.QUICKSWAP]: '0xEe57c38d678CaE0cE16168189dB47238d8fe6553',
+  },
+  [ChainId.COSTON]: {
+    [SmartRouter.APE]: '0x05D6C73D7de6E02B3f57677f849843c03320681c',
+    [SmartRouter.QUICKSWAP]: '0xEe57c38d678CaE0cE16168189dB47238d8fe6553',
+  },
+  [ChainId.SONGBIRD]: {
+    [SmartRouter.APE]: '0x05D6C73D7de6E02B3f57677f849843c03320681c',
+    [SmartRouter.QUICKSWAP]: '0xEe57c38d678CaE0cE16168189dB47238d8fe6553',
+  },
 }
 
 export const SMART_LP_FEES = {
@@ -297,18 +297,18 @@ export const SMART_LP_FEES = {
     [SmartRouter.APE]: 20,
     [SmartRouter.QUICKSWAP]: 30,
   },
-  // [ChainId.FLARE]: {
-  //   [SmartRouter.APE]: 20,
-  //   [SmartRouter.QUICKSWAP]: 30,
-  // },
-  // [ChainId.COSTON]: {
-  //   [SmartRouter.APE]: 20,
-  //   [SmartRouter.QUICKSWAP]: 30,
-  // },
-  // [ChainId.SONGBIRD]: {
-  //   [SmartRouter.APE]: 20,
-  //   [SmartRouter.QUICKSWAP]: 30,
-  // },
+  [ChainId.FLARE]: {
+    [SmartRouter.APE]: 20,
+    [SmartRouter.QUICKSWAP]: 30,
+  },
+  [ChainId.COSTON]: {
+    [SmartRouter.APE]: 20,
+    [SmartRouter.QUICKSWAP]: 30,
+  },
+  [ChainId.SONGBIRD]: {
+    [SmartRouter.APE]: 20,
+    [SmartRouter.QUICKSWAP]: 30,
+  },
   [ChainId.MAINNET]: {
     [SmartRouter.APE]: 20,
     [SmartRouter.UNISWAP]: 30,
