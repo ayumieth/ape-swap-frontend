@@ -186,7 +186,7 @@ const Gnana = () => {
           {/* DownArrow */}
           <Flex sx={gnanaStyles.arrowDownContainer}>
             <Flex sx={gnanaStyles.arrowDown}>
-              <Svg icon="arrow" width="8px" color="primaryBright" />
+              <Svg icon="arrow" width="8px" color="primaryBright" height='10px' />
             </Flex>
           </Flex>
           <DexPanel

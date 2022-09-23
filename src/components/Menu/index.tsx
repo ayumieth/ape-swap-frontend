@@ -33,6 +33,7 @@ const Menu = (props) => {
   const { account, chainId } = useActiveWeb3React()
   const { login, logout } = useAuth()
   const { switchNetwork } = useSelectNetwork()
+  console.log("swtichNetowork::", switchNetwork);
   const { isDark, toggleTheme } = useTheme()
   const { profile } = useProfile()
   const { t, setLanguage, currentLanguage } = useTranslation()
